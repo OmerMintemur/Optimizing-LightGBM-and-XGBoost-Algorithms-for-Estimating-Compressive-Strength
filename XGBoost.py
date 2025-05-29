@@ -13,27 +13,15 @@ Created on Wed Apr  5 13:05:05 2023
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import random
 import numpy as np
-from sklearn import linear_model
 import xgboost as xgb
-# import lightgbm as lgbm
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error
-import shap
-from optuna.integration import LightGBMPruningCallback
 from sklearn.model_selection import KFold
 import optuna
-from sklearn.model_selection import StratifiedKFold
-from sklearn.preprocessing import StandardScaler
-import plotly
-from plotly.io import show
-from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import cross_val_score
-from optuna.samplers import TPESampler, CmaEsSampler
-import time
+from optuna.samplers import TPESampler
 import shap
-from scipy.stats import norm
 
 # Parameters to be optimized
 def return_param(trial):
