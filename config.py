@@ -8,7 +8,7 @@ MODEL_TYPE = 'Xgboost'  # or 'Xgboost'
 # File paths
 AUGMENTED_DATA_PATH = 'AugmentedData.csv'
 ORIGINAL_DATA_PATH = 'Veri_Son.xlsx'
-RESULTS_DIR = f'D:\\Projeler\\Duygu_Hoca++\\Revizyon_18.09.2024\\LIGHTGBM\\Deneme\\{METRIC.upper()}\\'
+RESULTS_DIR = f'Your Directory'
 
 # Feature names
 FEATURE_NAMES = ["Cement", "Silica Fume", "Quartz Sand", "Silica Sand",
