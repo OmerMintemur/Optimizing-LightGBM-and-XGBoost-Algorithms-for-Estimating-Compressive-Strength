@@ -3,7 +3,7 @@
 # Metric selection
 METRIC = 'rmse'  # Options: 'mae', 'mape', 'rmse'
 BEFORE_AFTER = 'After'  # Options: 'Before', 'After'
-MODEL_TYPE = 'Xgboost'  # or 'Xgboost'
+MODEL_TYPE = 'Xgboost'  # or 'Lightgbm'
 
 # File paths
 AUGMENTED_DATA_PATH = 'AugmentedData.csv'
